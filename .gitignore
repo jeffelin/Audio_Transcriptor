@@ -75,4 +75,5 @@ fix.sh
 
 # Keep README.md for GitHub but ignore other docs
 CHANGELOG.md
-# LICENSE
+LICENSE
+DESCRIPTION.txt
