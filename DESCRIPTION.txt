@@ -1,0 +1,1 @@
+Hotkey Audio Transcriber - macOS local AI transcription with global hotkeys. No external APIs, Whisper AI, Cmd+Shift+R recording.
