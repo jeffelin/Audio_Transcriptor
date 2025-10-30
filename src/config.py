@@ -30,3 +30,16 @@ VERSION = '1.0.0'
 # Feedback Settings
 ENABLE_CONSOLE_FEEDBACK = True
 ENABLE_AUDIO_FEEDBACK = False  # Optional beep sounds
+
+# Formatting Settings
+# Insert a new line when a silence between segments exceeds this threshold (seconds)
+PAUSE_BREAK_THRESHOLD_S = 1.2
+
+# Include timestamps like [00:00 - 00:07] before each segment/paragraph
+INCLUDE_TIMESTAMPS = True
+
+# Wrap lines approximately to this many characters (0 to disable wrapping)
+MAX_LINE_LENGTH = 100
+
+# Whether to force capitalization and end punctuation for each segment
+ENFORCE_SENTENCE_CASING = True

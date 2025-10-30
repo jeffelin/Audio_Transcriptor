@@ -115,6 +115,11 @@ Edit `src/config.py` to customize:
 - **Audio Quality**: Adjust sample rate and format
 - **Model Size**: Switch between Whisper models
 - **File Paths**: Customize save locations
+ - **Formatting**: Control transcript readability
+   - `PAUSE_BREAK_THRESHOLD_S`: Insert blank lines on long pauses (seconds)
+   - `INCLUDE_TIMESTAMPS`: Add `[mm:ss - mm:ss]` before each segment
+   - `MAX_LINE_LENGTH`: Wrap lines to this width (0 to disable)
+   - `ENFORCE_SENTENCE_CASING`: Capitalize and ensure end punctuation
 
 ## Troubleshooting
 
